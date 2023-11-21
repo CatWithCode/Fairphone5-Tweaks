@@ -114,6 +114,7 @@ read -n 1 -p "> Tweaking System:" mainmenuinput
 
 # Screen:
 adb shell settings put system min_refresh_rate 90
+adb shell settings put system peak_refresh_rate 90
 
 #Time:
 adb shell settings put secure clock_seconds 1
