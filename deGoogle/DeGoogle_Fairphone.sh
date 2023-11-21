@@ -290,6 +290,9 @@ find . -name "*.apk" -exec adb install {} \;
 # Tweaks:
 read -n 1 -p "> Tweaking System:" mainmenuinput
 
+# Screen:
+adb shell settings put system min_refresh_rate 90
+
 #Time:
 adb shell settings put global ntp_server pool.ntp.org
 adb shell settings put secure clock_seconds 1
