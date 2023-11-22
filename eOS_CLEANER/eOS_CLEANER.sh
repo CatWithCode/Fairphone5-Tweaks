@@ -9,7 +9,6 @@ adb shell dumpsys deviceidle whitelist -com.google.android.gms
 adb shell dumpsys deviceidle whitelist -com.google.android.gsf
 adb shell dumpsys deviceidle whitelist -com.android.inputmethod.latin
 adb shell dumpsys deviceidle whitelist -foundation.e.drive
-adb shell dumpsys deviceidle whitelist -foundation.e.advancedprivacy
 adb shell dumpsys deviceidle whitelist -foundation.e.apps
 adb shell dumpsys deviceidle whitelist -com.android.vending
 adb shell dumpsys deviceidle whitelist -foundation.e.notes
@@ -33,7 +32,6 @@ adb shell pm disable-user com.google.android.gms
 adb shell pm disable-user com.google.android.gsf
 adb shell pm disable-user com.android.inputmethod.latin
 adb shell pm disable-user foundation.e.drive
-adb shell pm disable-user foundation.e.advancedprivacy
 adb shell pm disable-user foundation.e.apps
 adb shell pm disable-user com.android.vending
 adb shell pm disable-user foundation.e.notes
@@ -57,7 +55,6 @@ adb shell pm clear --user 0 com.google.android.gms
 adb shell pm clear --user 0 com.google.android.gsf
 adb shell pm clear --user 0 com.android.inputmethod.latin
 adb shell pm clear --user 0 foundation.e.drive
-adb shell pm clear --user 0 foundation.e.advancedprivacy
 adb shell pm clear --user 0 foundation.e.apps
 adb shell pm clear --user 0 com.android.vending
 adb shell pm clear --user 0 foundation.e.notes
@@ -81,7 +78,6 @@ adb shell pm clear --user 0 com.google.android.euicc.overlay
 #adb shell pm uninstall --user 0 com.google.android.gsf # GOOGLE WORKAROUND - DISABLED WORKS
 adb shell pm uninstall --user 0 com.android.inputmethod.latin
 adb shell pm uninstall --user 0 foundation.e.drive
-adb shell pm uninstall --user 0 foundation.e.advancedprivacy
 adb shell pm uninstall --user 0 foundation.e.apps
 adb shell pm uninstall --user 0 com.android.vending
 adb shell pm uninstall --user 0 foundation.e.notes
